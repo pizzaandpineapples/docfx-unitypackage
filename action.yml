@@ -154,6 +154,7 @@ runs:
                 "xref": ["'$url'"],
                 "xrefService": ["https://xref.docs.microsoft.com/query?uid={uid}"],
                 "dest": "../_site"
+                "filter": "filter.yml"
             }
         }' > Documentation~/docfx.json
 
